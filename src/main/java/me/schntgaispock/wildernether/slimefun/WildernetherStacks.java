@@ -61,97 +61,92 @@ public class WildernetherStacks {
         // ---------- Guide Items ----------
         GUIDE_WILDERNETHER = new CustomItemStack(
             Material.WARPED_ROOTS,
-            Theme.WARPED.getColor() + "Wildernether"
+            Theme.WARPED.getColor() + "迷狱生机"
         );
 
         GUIDE_MATERIALS = new CustomItemStack(
             Material.MAGMA_CREAM,
-            Theme.CRIMSON.getColor() + "Materials"
+            Theme.CRIMSON.getColor() + "材料"
         );
 
         GUIDE_TOOLS = new CustomItemStack(
             Material.STONE_HOE,
-            Theme.BLACKSTONE.getColor() + "Tools"
+            Theme.BLACKSTONE.getColor() + "工具"
         );
 
         GUIDE_PLANTS = new CustomItemStack(
             Material.NETHER_SPROUTS,
-            Theme.WARPED.getColor() + "Plants"
+            Theme.WARPED.getColor() + "置物架"
         );
         
         GUIDE_CUISINE = new CustomItemStack(
             Material.COOKED_PORKCHOP,
-            Theme.CUISINE.getColor() + "Cuisine"
+            Theme.CUISINE.getColor() + "烹饪"
         );
         
         GUIDE_BREWS = new CustomItemStack(
             Material.GLASS_BOTTLE,
-            Theme.BREW.getColor() + "Brews"
+            Theme.BREW.getColor() + "酿造"
         );
 
         GUIDE_RECIPE_HOGLIN_BOUILLON = new CustomItemStack(
             Material.PORKCHOP,
-            Theme.CUISINE.getColor() + "Any Hoglin meat"
+            Theme.CUISINE.getColor() + "任意疣猪兽的肉"
         );
 
         RECIPE_BREAK_NETHER_PLANTS = new CustomItemStack(
             Material.NETHER_SPROUTS,
-            "&bBreak Nether Plants",
-            "&7This resource is obtained by harvesting",
-            "&7(breaking) plants in the nether with a",
-            "&7scythe. The available plants are Nether Sprouts,",
-            "&7Warped Roots, Warped Fungus, Twisting Vines,",
-            "&7Crimson Root, Crimson Fungus, Weeping Vines,",
-            "&7and Shroomlight"
+            "&b收割下界植物",
+            "&7此资源通过大钐镰收割下界植物获取",
+            "&7有效植物为:",
+            "&7下界苗、诡异菌索、绯红菌索、",
+            "&7诡异菌、绯红菌、缠怨藤",
+            "&7垂泪藤、菌光体"
         );
 
         RECIPE_BLACKSTONE_STOVE_OVEN = new CustomItemStack(
             Material.BLAST_FURNACE,
-            "&bBlackstone Stove (Oven)",            
-            "&7This recipe is crafted using the Blackstone",
-            "&7Stove's oven mode. This is the default."
+            "&b黑石炉(烤箱)",            
+            "&7该配方是通过黑石炉的烤箱模式制作的",
+            "&7这是默认设置"
         );
 
         RECIPE_BLACKSTONE_STOVE_FRYING = new CustomItemStack(
             Material.BLAST_FURNACE,
-            "&bBlackstone Stove (Frying)",
-            "&7This recipe is crafted using the Blackstone",
-            "&7Stove's frying mode. Place a Heavy Weighted",
-            "&7Pressure Plate (Iron Pressure Plate) on top",
-            "&7of the stove to use this mode."
+            "&b黑石炉(油炸)",
+            "&7该配方是通过黑石炉的油炸模式制作的",
+            "&7在炉子上放置一个重制侧重压力板",
+            "&7例如:铁制压力板,
+            "&7来启用这个模式"
         );
 
         RECIPE_BLACKSTONE_STOVE_POT = new CustomItemStack(
             Material.BLAST_FURNACE,
-            "&bBlackstone Stove (Pot)",
-            "&7This recipe is crafted using the Blackstone",
-            "&7Stove's pot mode. Place a Cauldron on top",
-            "&7of the stove to use this mode."
+            "&b黑石炉(蒸锅)",
+            "&7该配方是通过黑石炉的蒸锅模式制作的",
+            "&7在炉子上放置一个炼药锅",
+            "&7来启用这个模式"
         );
 
         RECIPE_BLACKSTONE_STOVE_BREWING = new CustomItemStack(
             Material.BLAST_FURNACE,
-            "&bBlackstone Stove (Brewing)",
-            "&7This recipe is crafted using the Blackstone",
-            "&7Stove's brewing mode. Place a Light Weighted",
-            "&7Pressure Plate (Gold Pressure Plate) on top",
-            "&7of the stove to use this mode. Water Bottles",
-            "&7can be substituted with Cactus Juice."
+            "&b黑石炉(酿造)",
+            "&7该配方是通过黑石炉的酿造模式制作的",
+            "&7在炉子上放置一个轻制侧重压力板",
+            "&7例如:金制压力板",
+            "&7来启用这个模式",
+            "&7水瓶可以用仙人掌汁代替"
         );
 
         RECIPE_KILL_MOB = new CustomItemStack(
             Material.GOLDEN_SWORD,
-            "&bHunting",
-            "&7This item is obtained by killing the",
-            "&7Specified mob",
-            "&7Pressure Plate (Gold Pressure Plate) on top",
-            "&7of the stove to use this mode. Water Bottles",
-            "&7can be substituted with Cactus Juice."
+            "&b狩猎",
+            "&7该物品通过杀死指定生物获得"
         );
 
         RECIPE_HOGLIN = new CustomItemStack(
             Material.HOGLIN_SPAWN_EGG,
-            "&fHoglin"
+            "&f疣猪兽"
         );
 
         WATER_BOTTLE = ItemUtil.getWaterBottle();
@@ -161,54 +156,52 @@ public class WildernetherStacks {
             Theme.CRIMSON,
             "CRIMSON_FRAME",
             Material.CRIMSON_FENCE_GATE,
-            "Crimson Frame",
+            "&4绯红框架",
             "",
-            "A sturdy frame made from the stem of",
-            "a large Crimson Fungus"
+            "&7由一种大型绯红菌的茎",
+            "&7制成的结实的框架"
         );
-
+        
         WARPED_FRAME = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "WARPED_FRAME",
             Material.WARPED_FENCE_GATE,
-            "Warped Frame",
+            "&2诡异框架",
             "",
-            "A sturdy frame made from the stem of",
-            "a large Warped Fungus"
+            "&7由一种大型的诡异菌的茎",
+            "&7制成的结实的框架"
         );
 
         SOUL_STONE = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "SOUL_STONE",
             Material.LODESTONE,
-            Theme.SOUL.getColor() + "Soul Stone",
+            Theme.SOUL.getColor() + "灵魂之石",
             "",
-            "You can hear strange whisperings coming",
-            "from deep within"
+            "&7你可以听见他们",
+            "&7在深渊中怒吼"
         );
 
         FUNGAL_IRON_SCRAP = ItemUtil.formattedSlimefunItemStack(
             Theme.NEUTRAL,
             "FUNGAL_IRON_SCRAP",
             Material.IRON_NUGGET,
-            Theme.NEUTRAL.getColor() + "Fungal Iron Scrap",
+            Theme.NEUTRAL.getColor() + "真菌铁屑",
             "",
-            "A piece of scrap iron overgrown",
-            "with fungus",
+            "&7一小块杂草丛生的废铁",
             "",
-            "&7&oUsable in Workbench"
+            "&7&o可在原版工作台中使用"
         );
 
         FUNGAL_GOLD_SCRAP = ItemUtil.formattedSlimefunItemStack(
             Theme.NEUTRAL,
             "FUNGAL_GOLD_SCRAP",
             Material.GOLD_NUGGET,
-            Theme.NEUTRAL.getColor() + "Fungal Gold Scrap",
+            Theme.NEUTRAL.getColor() + "真菌金屑",
             "",
-            "A piece of scrap gold overgrown",
-            "with fungus",
+            "一小块杂草丛生的黄金",
             "",
-            "&7&oUsable in Workbench"
+            "&7&o可在原版工作台中使用"
         );
         
         // ---------- Tools ----------
@@ -216,44 +209,43 @@ public class WildernetherStacks {
             Theme.BLACKSTONE,
             "BLACKSTONE_SCYTHE",
             Material.STONE_HOE,
-            Theme.BLACKSTONE.getColor() + "Blackstone Scythe",
+            Theme.BLACKSTONE.getColor() + "黑石大钐镰",
             "",
-            "Its extra-sharp blade makes it perfect",
-            "for cutting the tough plants that grow",
-            "in the nether"
+            "&7它那锋利的刀刃",
+            "&7非常适合切割",
+            "&7生长于下界的植物"
         );
         
         SOUL_SCYTHE = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "SOUL_SCYTHE",
             Material.NETHERITE_HOE,
-            Theme.SOUL.getColor() + "Soul Scythe",
+            Theme.SOUL.getColor() + "灵魂大钐镰",
             "",
-            "Its blade quivers with soft whispers.",
-            "If you use this to harvest plants in the",
-            "nether, you might discover plants with",
-            "secrets to tell!"
+            "&7它的刀刃颤动着",
+            "&7如果你用此钐镰来收割下界植物",
+            "&7你将会发现一些",
+            "&7神秘的植物!"
         );
 
         NETHER_COMPOSTER = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "NETHER_COMPOSTER",
             Material.COMPOSTER,
-            "Nether Composter",
+            "&6下界堆肥机",
             "",
-            "Crafted with the wood of the underworld,",
-            "it is suitable for breaking down even",
-            "the hardiest of plants"
+            "&7由下界真菌制成",
+            "&7适宜分解最坚硬的植物"
         );
 
         BLACKSTONE_STOVE = ItemUtil.formattedSlimefunItemStack(
             Theme.BLACKSTONE,
             "BLACKSTONE_STOVE",
             Material.BLAST_FURNACE,
-            Theme.BLACKSTONE.getColor() + "Blackstone Stove",
+            Theme.BLACKSTONE.getColor() + "黑石炉",
             "",
-            "Using netherrack, it is able to keep",
-            "itself lit forever!"
+            "由下界岩石打造",
+            "可源源不断提供燃料!"
         );
 
         // ---------- Plants ----------
@@ -261,7 +253,7 @@ public class WildernetherStacks {
             Theme.WARPED,
             "WARPED_CACTUS",
             Material.CACTUS,
-            "Warped Cactus",
+            "诡异仙人掌",
             "",
             "A tiny, twisted cactus growing from the",
             "hypha of a warped fungus. Be careful not",
