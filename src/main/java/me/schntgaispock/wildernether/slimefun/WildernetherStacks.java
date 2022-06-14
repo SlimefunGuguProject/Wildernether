@@ -76,7 +76,7 @@ public class WildernetherStacks {
 
         GUIDE_PLANTS = new CustomItemStack(
             Material.NETHER_SPROUTS,
-            Theme.WARPED.getColor() + "置物架"
+            Theme.WARPED.getColor() + "植物"
         );
         
         GUIDE_CUISINE = new CustomItemStack(
@@ -116,7 +116,7 @@ public class WildernetherStacks {
             "&b黑石炉(油炸)",
             "&7该配方是通过黑石炉的油炸模式制作的",
             "&7在炉子上放置一个重制侧重压力板",
-            "&7例如:铁制压力板,
+            "&7例如:铁制压力板",
             "&7来启用这个模式"
         );
 
@@ -253,74 +253,73 @@ public class WildernetherStacks {
             Theme.WARPED,
             "WARPED_CACTUS",
             Material.CACTUS,
-            "诡异仙人掌",
+            "&a诡异仙人掌",
             "",
-            "A tiny, twisted cactus growing from the",
-            "hypha of a warped fungus. Be careful not",
-            "to step on it!"
+            "&7一种微小且诡异的仙人掌",
+            "&7由诡异菌的菌丝生长而成",
+            "&7小心不要踩到它!"
         );
 
         BLAZESPROUT = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "BLAZESPROUT",
             Material.RED_DYE,
-            "Blazesprout",
+            "&4烈焰芽",
             "",
-            "The hypha of a nether fungus has",
-            "absorbed some powder from a blaze,",
-            "leading to the formation of a fiery",
-            "blister.",
             "",
-            "&7&oUse in the Nether Composter"
+            "&7它长期生长在烈焰人的旁边",
+            "&7以烈焰人身上的烈焰粉为肥料",
+            "&7借此生长出了一个炽热的水泡",
+            "",
+            "&7&o可用于下界堆肥机"
         );
 
         NETHER_TUBERS = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "NETHER_TUBERS",
             Material.POTATO,
-            "Nether Tubers",
+            "&d下界块茎",
             "",
-            "It's a potato."
+            "&7这其实是一种土豆"
         );
 
         CRYSTAL_MUSHROOM = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "CRYSTAL_MUSHROOM",
             Material.RED_MUSHROOM,
-            "Crystal Mushroom",
+            "&c水晶蘑菇",
             "",
-            "An excess of quartz in its surroundings",
-            "has given rise to this strange mushroom,",
-            "growing crystals of quartz in its cap"
+            "&7这种蘑菇生长在下界石英簇之中",
+            "&7受周围环境影响",
+            "&7其顶部也生长出了一块块石英晶体"
         );
 
         SHROOMLIGHT_SPORES = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "SHROOMLIGHT_SPORES",
             Material.PUMPKIN_SEEDS,
-            "Shroomlight Spores",
+            "&6蘑菇孢子",
             "",
-            "These spores don't appear to glow, unlike",
-            "the bulbs that they dropped from."
+            "&7这些孢子看起来并不发光",
+            "&7也没有类似于其他蘑菇一样的球茎"
         );
 
         WARPED_ROSE = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "WARPED_ROSE",
             Material.WITHER_ROSE,
-            "Warped Rose",
+            "&9诡异玫瑰",
             "",
-            "This rose's thorns are bigger than its",
-            "leaves"
+            "&7这朵玫瑰的刺比它的叶子都大"
         );
 
         RED_CARROT = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "RED_CARROT",
             Material.CARROT,
-            "Red Carrot",
+            "绯红胡萝卜",
             "",
-            "It's red"
+            "它似乎冒着岩浆"
         );
 
         // Uncommon
