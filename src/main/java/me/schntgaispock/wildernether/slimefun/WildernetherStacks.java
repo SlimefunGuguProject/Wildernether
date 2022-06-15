@@ -317,9 +317,9 @@ public class WildernetherStacks {
             Theme.CRIMSON,
             "RED_CARROT",
             Material.CARROT,
-            "绯红胡萝卜",
+            "&4绯红胡萝卜",
             "",
-            "它似乎冒着岩浆"
+            "&7它似乎冒着岩浆"
         );
 
         // Uncommon
@@ -327,38 +327,37 @@ public class WildernetherStacks {
             Theme.CRIMSON,
             "CRIMSON_DREADLOCKS",
             Material.WEEPING_VINES,
-            "Crimson Dreadlocks",
+            "&2诡异长发绺",
             "",
-            "Each one of these vines is as thick as",
-            "your arm..."
+            "&7它的每一个根茎",
+            "&7长得同你手臂一样粗..."
         );
 
         TWISTED_BEAN_SPROUT = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "TWISTED_BEAN_SPROUT",
             Material.TWISTING_VINES,
-            "Twisted Bean Sprout",
+            "&a绞豆芽",
             "",
-            "High source of fibre!"
+            "&7一种高纤维的来源!"
         );
 
         RED_SPIDER_LILY = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "RED_SPIDER_LILY",
             Material.POPPY,
-            "Red Spider Lily",
+            "&c红蜘蛛百合",
             "",
-            "Its curling petals seem to be grabbing",
-            "at you"
+            "&7它那卷曲的花瓣似乎想要吞噬你"
         );
 
         WARPED_LOTUS = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "WARPED_LOTUS",
             Material.SPORE_BLOSSOM,
-            "Warped Lotus",
+            "&d诡异莲花",
             "",
-            "Don't they normally grow on water?"
+            "&7它们通常不是生长在水上吗?"
         );
 
         // Rare
@@ -366,38 +365,37 @@ public class WildernetherStacks {
             Theme.CRIMSON_DARK,
             "SMOLDERING_HERBS",
             Material.FERN,
-            "Smoldering Herbs",
+            "&6闷烧草药",
             "",
-            "They don't actually burn"
+            "&7它们实际上不会燃烧"
         );
 
         IMMOLATED_VINES = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON_DARK,
             "IMMOLATED_VINES",
             Material.WEEPING_VINES,
-            "Immolated Vines",
+            "&c烈火藤蔓",
             "",
-            "Even after being cut from the fungus,",
-            "it pulsates like a heart"
+            "&7它的根茎上溢满了火焰",
+            "&7如图跳动的心脏一般"
         );
 
         OCTARINE_NETHERCAP = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED_DARK,
             "OCTARINE_NETHERCAP",
             Material.WARPED_FUNGUS,
-            "Octarine Nethercap",
+            "&5八氢萘帽",
             "",
-            "A fluorescent greenish-yellow purple"
+            "&7它散发出淡淡的暗紫色荧光"
         );
 
         EMERALD_FIREBLOOM = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED_DARK,
             "EMERALD_FIREBLOOM",
             Material.FERN,
-            "Emerald Firebloom",
+            "&a翡翠火焰织茎",
             "",
-            "Its petals undulate like the flames",
-            "of a fire"
+            "&7它的花瓣如火焰一般舞动"
         );
         
 
@@ -406,74 +404,73 @@ public class WildernetherStacks {
             Theme.SOUL,
             "GARDEN_OF_THE_LOST_SOUL",
             Material.GRASS,
-            "Garden of the Lost Soul",
-            "&7Chapter 1",
+            "&b失落的灵魂花园",
+            "&7章节 1",
             "",
-            "The only refuge in this blazing land",
-            "for the adventurer trapped in hell.", 
-            "He cultivated this garden with the",
-            "flora of a peaceful world, escaping",
-            "into a transient dream"
+            "&7这是被困在下界的冒险者唯一的避难所",
+            "&7他们用和平世界的植物", 
+            "&7栽培这个花园",
+            "&7并逃避到短暂的梦境之中"
         );
 
         TULIP_OF_PARTINGS = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "TULIP_OF_PARTINGS",
             Material.WHITE_TULIP,
-            "Tulip of Partings",
-            "&7Chapter 2",
+            "&e离别的郁金香",
+            "&7章节 2",
             "",
-            "His oasis, the winds of the wastes",
-            "scattered and warped. In the end",
-            "the adventurer was left with a single",
-            "fragile tulip, the only reminder of",
-            "the world from which he came"
+            "&7他心中的绿洲",
+            "&7被下界的野风吹散",
+            "&7他的口袋里仅剩下",
+            "&7一朵残弱的郁金香",
+            "&7这是他来自那个世界的唯一纪念"
         );
 
         BLOOM_OF_UNHEARD_CRIES = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "BLOOM_OF_UNHEARD_CRIES",
             Material.FLOWERING_AZALEA,
-            "Bloom of Unheard Cries",
-            "&7Chapter 3",
+            "&9下界的痛哭",
+            "&7章回 3",
             "",
-            "Gone was his sanctuary, every last", 
-            "bloom warped into horror. Fearing the",
-            "dangers of staying there, he set out",
-            "to find a way home. Alas, his shouts",
-            "reached nothing but the domineering",
-            "netherrack sky, and the brown sand",
-            "dragging down his feet"
+            "&7他的避难所消失了", 
+            "&7每一朵花都被特殊的环境扭曲",
+            "&7出自于内心的恐惧",
+            "&7他决定寻找回家的路",
+            "&7唉，",
+            "&7他的喊声只能传到那盛气凌人的天空",
+            "&7以及拖着他脚步的棕色沙子"
         );
 
         BLOSSOM_OF_SOLITUDE = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "BLOSSOM_OF_SOLITUDE",
             Material.CRIMSON_FUNGUS,
-            "Blossom of Solitude",
-            "&7Chapter 4",
+            "&6孤独之花",
+            "&7章回 4",
             "",
-            "After days of walking, the adventurer",
-            "could move no longer. He collapsed on the",
-            "hard rock, scarlet blood flowing from",
-            "festering wounds. No more did he feel the",
-            "itch of a stinging scrape, nor the aching",
-            "of an empty stomach."
+            "&7走了几天后,",
+            "&7这位冒险家再也走不动了",
+            "&7他瘫倒在坚硬的岩石上",
+            "&7猩红的鲜血从溃烂的伤口中流出",
+            "&7他无法感受到刺痛刮擦般的痒",
+            "&7也无法感受到空腹的痛苦。"
         );
 
         LAMENT_OF_THE_DAMNED = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "LAMENT_OF_THE_DAMNED",
             Material.WEEPING_VINES,
-            "Lament of the Damned",
-            "&7Chapter 5",
+            "&8被诅咒者的哀歌",
+            "&7章回 5",
             "",
-            "Once fiery brimstone, this land became",
-            "overgrown with the twisted forms of flora",
-            "that flew on the wind, and mutated with",
-            "time. However, no more could his soul be",
-            "soothed, for he was damned to this",
-            "unknown land for the rest of eternity"
+            "&7曾经炽热的硫磺",
+            "&7使这片土地变得杂草丛生",
+            "&7扭曲的植物随风飞舞",
+            "&7并随着时间的推移而变异",
+            "&7然而他的灵魂再也无法得到安慰",
+            "&7因为他被永远地诅咒在这个未知的土地上"
         );
 
         
@@ -484,48 +481,45 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "HOGLIN_SPARE_RIB",
             Material.BEEF,
-            "Hoglin Spare Rib",
+            "&6疣猪兽排",
             "",
-            "A thick cut of meat from the side",
-            "of a hoglin"
+            "疣猪兽上的一块鲜美的肋骨"
         );
         
         HOGLIN_BELLY = ItemUtil.formattedSlimefunItemStack(
             Theme.CUISINE,
             "HOGLIN_BELLY",
             Material.PORKCHOP,
-            "Hoglin Belly",
+            "&c疣猪兽肚",
             "",
-            "A fatty cut of meat from the underside",
-            "of a hoglin"
+            "&7肥瘦相间，流满了汁水"
         );
         
         HOGLIN_TROTTERS = ItemUtil.formattedSlimefunItemStack(
             Theme.CUISINE,
             "HOGLIN_TROTTERS",
             Material.RABBIT_FOOT,
-            "Hoglin Trotters",
+            "&e疣猪兽蹄",
             "",
-            "The foot of a hoglin"
+            "&7记得配上黄豆"
         );
 
         HOGLIN_BOUILLON = ItemUtil.formattedSlimefunItemStack(
             Theme.CUISINE,
             "HOGLIN_BOUILLON",
             Material.WATER_BUCKET,
-            "Hoglin Bouillon",
+            "&a疣猪兽汤",
             "",
-            "A flavourful broth made by simmering",
-            "hoglin meat"
+            "&7煨制的美味肉汤"
         );
 
         BOILED_WARPED_CACTUS = ItemUtil.formattedSlimefunItemStack(
             Theme.CUISINE,
             "BOILED_WARPED_CACTUS",
             Material.GREEN_DYE,
-            "Boiled Warped Cactus",
+            "&a煨制仙人掌",
             "",
-            "You can eat cactus?",
+            "&7你可以食用仙人掌了?",
             "",
             LoreBuilder.hunger(1)
         );
@@ -535,10 +529,10 @@ public class WildernetherStacks {
             Theme.CUISINE,
                 "CACTUS_JUICE",
                 Material.POTION,
-                "Cactus Juice",
+                "&a仙人掌汁",
                 "",
-                "A regular water bottle that smells",
-                "faintly of sulfur and cactus"
+                "&7一个普通的水瓶",
+                "&7散发着淡淡的硫磺和仙人掌的味道"
             ),
             Color.fromRGB(0x7c, 0xd3, 0x9c)
         );
@@ -548,9 +542,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "WARPED_SALAD",
             Material.GREEN_DYE,
-            "Warped Salad",
+            "&a诡异沙拉",
             "",
-            "Salads are green, so its okay to eat",
+            "&7沙拉是绿色的，所以可以吃",
             "",
             LoreBuilder.hunger(4)
         );
@@ -559,9 +553,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "MUSHROOM_SLICES",
             Material.BEETROOT_SEEDS,
-            "Mushroom Slices",
+            "&e蘑菇片",
             "",
-            "An assortment of oddly coloured fungi",
+            "&7沙拉是绿色的，所以可以吃",
             "",
             LoreBuilder.hunger(3)
         );
@@ -570,9 +564,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "BAKED_NETHER_TUBERS",
             Material.BAKED_POTATO,
-            "Baked Nether Tubers",
+            "&b烤下界块茎",
             "",
-            "It's a baked potato.",
+            "&7闻着很香",
             "",
             LoreBuilder.hunger(3)
         );
@@ -581,10 +575,10 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "GLOWING_BEANS",
             Material.GLOW_BERRIES,
-            "Glowing Beans",
+            "&e荧光豆",
             "",
-            "It looks like cooking has brought out",
-            "The luminescent elements in the spores",
+            "&7看起来烹饪激发了",
+            "&7孢子中的荧光元素",
             "",
             LoreBuilder.hunger(0.5)
         );
@@ -594,9 +588,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "NETHER_CHIPS",
             Material.BREAD,
-            "Nether Chips™",
+            "&e下界薯片™",
             "",
-            "You'll get fat if you eat too much",
+            "&7千万别吃太多",
             "",
             LoreBuilder.hunger(1.5)
         );
@@ -605,9 +599,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "FRIED_WARPED_FUNGUS",
             Material.WARPED_FUNGUS,
-            "Fried Warped Fungus",
+            "&a诡异菌干",
             "",
-            "Crunchy!",
+            "&7嘎嘣脆!",
             "",
             LoreBuilder.hunger(1)
         );
@@ -616,9 +610,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "FRIED_CRIMSON_FUNGUS",
             Material.CRIMSON_FUNGUS,
-            "Fried Crimson Fungus",
+            "&4绯红菌干",
             "",
-            "Crunchy!",
+            "&7嘎嘣脆!",
             "",
             LoreBuilder.hunger(1)
         );
@@ -627,9 +621,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "SPICY_FRIED_LOTUS",
             Material.COOKIE,
-            "Spicy Fried Lotus",
+            "&c辣炒荷花",
             "",
-            "Sweet, savoury, &oand spicy!",
+            "&7香甜可口且伴随着辣味!",
             "",
             LoreBuilder.hunger(3.5)
         );
@@ -639,10 +633,10 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "CRIMSON_STEW",
             Material.BEETROOT_SOUP,
-            "Crimson Stew",
+            "&4绯红炖肉",
             "",
-            "A thick clump of fungus floats on the top.",
-            "It should be safe to eat, right?",
+            "&7厚厚的一丛真菌漂浮在顶部",
+            "&7应该可以安全食用吧?",
             "",
             LoreBuilder.hunger(5)
         );
@@ -651,10 +645,10 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "WARPED_STEW",
             Material.SUSPICIOUS_STEW,
-            "Warped Stew",
+            "&a诡异炖肉",
             "",
-            "The surface of the soup shines green.",
-            "It should be safe to eat, right?",
+            "&7厚厚的一丛真菌漂浮在顶部",
+            "&7应该可以安全食用吧?",
             "",
             LoreBuilder.hunger(5)
         );
@@ -663,9 +657,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "NETHER_HOTPOT",
             Material.RABBIT_STEW,
-            "Nether Hotpot",
+            "&c下界火锅",
             "",
-            "Piping hot!",
+            "&7小心烫!",
             "",
             LoreBuilder.hunger(6)
         );
@@ -674,9 +668,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "PORK_BONE_SOUP",
             Material.MUSHROOM_STEW,
-            "Pork Bone Soup",
+            "&e猪骨汤",
             "",
-            "Very filling!",
+            "&7味道及其鲜美!",
             "",
             LoreBuilder.hunger(8.5)
         );
@@ -685,9 +679,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "BOILED_NETHER_TUBERS",
             Material.POTATO,
-            "Boiled Nether Tubers",
+            "&d下界香芋",
             "",
-            "It's a boiled potato.",
+            "&7其实味道并不甜",
             "",
             LoreBuilder.hunger(3)
         );
@@ -698,7 +692,7 @@ public class WildernetherStacks {
                 Theme.BREW,
                 "BREW_OF_FIRE_WARDING",
                 Material.POTION,
-                "Brew of Fire Warding"
+                "&6抗火魔爪"
             ),
             Color.fromRGB(0xfc, 0x8d, 0x0f),
             new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 300*20, 0)
@@ -709,7 +703,7 @@ public class WildernetherStacks {
                 Theme.BREW,
                 "BREW_OF_FARSIGHT",
                 Material.POTION,
-                "Brew of Farsight"
+                "&b夜视红牛"
             ),
             Color.fromRGB(0x0f, 0x7d, 0xfc),
             new PotionEffect(PotionEffectType.NIGHT_VISION, 300*20, 0)
@@ -720,7 +714,7 @@ public class WildernetherStacks {
                 Theme.BREW,
                 "BREW_OF_CELERITY",
                 Material.POTION,
-                "Brew of Celerity"
+                "&4下界特饮"
             ),
             Color.fromRGB(0xfc, 0xf4, 0xfa),
             new PotionEffect(PotionEffectType.FAST_DIGGING, 10*20, 1),
