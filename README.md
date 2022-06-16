@@ -1,4 +1,4 @@
-# Wildernether
+# 迷狱生机
 
 Wildernether seeks to improve survivability in the nether by adding food and tools that can easily be crafted in the nether
 
