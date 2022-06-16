@@ -55,10 +55,10 @@ public class BlackstoneStove extends MenuBlock {
     public static final int[] RECIPE_SLOTS = { 12, 13, 14, 21, 22, 23 };
     public static final int COOK_SLOT = GUI_COOK_SLOTS[0];
     public static final int OUTPUT_SLOT = 25;
-    public static final String COOK_CONFIRM_NAME = "Click to cook!";
+    public static final String COOK_CONFIRM_NAME = "点击烹饪!";
 
-    public static final ItemStack BOWL_BORDER_ITEM = new CustomItemStack(Material.BLUE_STAINED_GLASS_PANE, "&9Container");
-    public static final ItemStack RECIPE_BORDER_ITEM = new CustomItemStack(Material.CAMPFIRE, Theme.CUISINE.getColor() + "Recipe");
+    public static final ItemStack BOWL_BORDER_ITEM = new CustomItemStack(Material.BLUE_STAINED_GLASS_PANE, "&9容器");
+    public static final ItemStack RECIPE_BORDER_ITEM = new CustomItemStack(Material.CAMPFIRE, Theme.CUISINE.getColor() + "配方");
     
     @Getter
     @Setter
@@ -76,7 +76,7 @@ public class BlackstoneStove extends MenuBlock {
     }
 
     public static ItemStack getCraftConfirmItem(@Nonnull Mode mode) {
-        return new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&a" + COOK_CONFIRM_NAME, "&7Mode: &f" + mode.toString());
+        return new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&a" + COOK_CONFIRM_NAME, "&7模式: &f" + mode.toString());
     }
 
     @Override
@@ -168,7 +168,7 @@ public class BlackstoneStove extends MenuBlock {
 
             ItemStack recipeOutput = recipeCollection.getOrNull(currentRecipe);
             if (recipeOutput == null) {
-                player.sendMessage(Theme.CUISINE.getColor() + "Invalid " + this.mode.toString().toLowerCase() + " recipe!");
+                player.sendMessage(Theme.CUISINE.getColor() + "无效" + this.mode.toString().toLowerCase() + "配方!");
                 return false;
             }
 
@@ -183,7 +183,7 @@ public class BlackstoneStove extends MenuBlock {
             } else if (recipeOutput.isSimilar(currentlyInOutput)) {
                 // Failure
                 if (currentlyInOutput.getMaxStackSize() == currentlyInOutput.getAmount()) {
-                    player.sendMessage(Theme.CUISINE.getColor() + "Output is full!");
+                    player.sendMessage(Theme.CUISINE.getColor() + "输出已满!");
                     return false;
                 }
                 // Success
@@ -191,7 +191,7 @@ public class BlackstoneStove extends MenuBlock {
             
             // Failure
             } else {
-                player.sendMessage(Theme.CUISINE.getColor() + "Output is occupied!");
+                player.sendMessage(Theme.CUISINE.getColor() + "输出被占用!");
                 return false;
             }
 
