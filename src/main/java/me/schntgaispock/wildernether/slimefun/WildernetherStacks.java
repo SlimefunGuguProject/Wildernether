@@ -555,7 +555,7 @@ public class WildernetherStacks {
             Material.BEETROOT_SEEDS,
             "&e蘑菇片",
             "",
-            "&7沙拉是绿色的，所以可以吃",
+            "&7至少看上去不错...",
             "",
             LoreBuilder.hunger(3)
         );
