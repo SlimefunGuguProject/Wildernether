@@ -1,36 +1,21 @@
-# 迷狱生机
+# WilderNether - 迷狱生机
 
-Wildernether seeks to improve survivability in the nether by adding food and tools that can easily be crafted in the nether
+迷狱生机致力于提升玩家在下界中的生存能力, 添加了可以在下界制作的食物与工具。
 
-You can find the wiki at [https://github.com/SchnTgaiSpock/Wildernether/wiki](https://github.com/SchnTgaiSpock/Wildernether/wiki)
+你可以在我们的文档中了解插件的更多内容: [点击前往(英文)](https://github.com/SchnTgaiSpock/Wildernether/wiki)
 
-## Gathering Resources
+## 下载
 
-The main way to gather resources in Wildernether is by breaking nether plants with Scythes. The plants that you can break are Nether Sprouts, Warped Roots, Warped Fungus, Twisting Vines, Crimson Roots, Crimson Fungus, Weeping Vines, and Shroomlight.
+点击这里下载 WilderNether: [下载 WilderNether](https://builds.guizhanss.net/SlimefunGuguProject/WilderNether/master)
 
-### Plants
-
-Wildernether plants are only used in cooking recipes. More uses will be added in the future.
-
-### Secret Plants
-
-Using the Soul Scythe, you have an increased chance to get 5 other secret plants. They have no use other than a collectible.
-
-## Cuisine
-
-Wildernether food can be made in the Enhanced Crafting Table and the Blackstone Stove.
-
-### Cooking in the Blackstone Stove
-
-The Blackstone Stove has four modes: Pot, Frying, Oven, and Brewing. See the [wiki page](https://github.com/SchnTgaiSpock/Wildernether/wiki/Blackstone-Stove) for more details.
-
-### Reading the Stove recipes
-
-The top 6 slots in the Simefun Guide correspond to the 6 slots in the Stove. For soup and brewing recipes, the bottom-middle item goes in the container slot to the left.
-
-## Plans for the Future
-
-I plan on updating and maintaining this addon even after the 2022 AddonJam ends.
+<p align="center">
+  <a href="https://github.com/SlimefunGuguProject/WilderNether/actions/workflows/maven.yml">
+    <img src="https://github.com/SlimefunGuguProject/WilderNether/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
+  </a>
+  <a href="https://builds.guizhanss.net/SlimefunGuguProject/WilderNether/master">
+    <img src="https://builds.guizhanss.net/f/SlimefunGuguProject/WilderNether/master/badge.svg" alt="Build status"/>
+  </a>
+</p>
 
 ## Credits
 

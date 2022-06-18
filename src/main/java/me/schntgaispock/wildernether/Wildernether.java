@@ -4,6 +4,7 @@ import java.util.Random;
 
 import javax.annotation.Nonnull;
 
+import net.guizhanss.guizhanlib.updater.GuizhanBuildsUpdater;
 import org.bukkit.NamespacedKey;
 
 import io.github.mooy1.infinitylib.core.AbstractAddon;
@@ -43,6 +44,10 @@ public class Wildernether extends AbstractAddon {
         ItemManager.setup();
         LootManager.setup();
         Listeners.setup();
+
+        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("Build")) {
+            new GuizhanBuildsUpdater(this, getFile(), "SlimefunGuguProject", "Wildernether", "master", false, "zh-CN").start();
+        }
     }
 
     @Override
