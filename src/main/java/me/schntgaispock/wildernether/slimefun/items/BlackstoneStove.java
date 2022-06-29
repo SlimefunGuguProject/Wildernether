@@ -6,6 +6,7 @@ import java.util.Map;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
+import net.guizhanss.wildernether.utils.BlackstoneStoveUtils;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -76,7 +77,7 @@ public class BlackstoneStove extends MenuBlock {
     }
 
     public static ItemStack getCraftConfirmItem(@Nonnull Mode mode) {
-        return new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&a" + COOK_CONFIRM_NAME, "&7模式: &f" + mode.toString());
+        return new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&a" + COOK_CONFIRM_NAME, "&7模式: &f" + BlackstoneStoveUtils.getMode(mode));
     }
 
     @Override
@@ -168,7 +169,7 @@ public class BlackstoneStove extends MenuBlock {
 
             ItemStack recipeOutput = recipeCollection.getOrNull(currentRecipe);
             if (recipeOutput == null) {
-                player.sendMessage(Theme.CUISINE.getColor() + "无效" + this.mode.toString().toLowerCase() + "配方!");
+                player.sendMessage(Theme.CUISINE.getColor() + "无效" + BlackstoneStoveUtils.getMode(mode) + "配方!");
                 return false;
             }
 
