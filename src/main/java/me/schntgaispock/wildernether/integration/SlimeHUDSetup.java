@@ -9,7 +9,7 @@ public class SlimeHUDSetup {
     public static void setup() {
 
         SlimeHUD.getHudController().registerCustomHandler(BlackstoneStove.class, (HudRequest request) -> {
-            return "&7| Mode: " + BlackstoneStove.getMode(request.getLocation());
+            return "&7| 模式: " + BlackstoneStove.getMode(request.getLocation());
         });
 
     }

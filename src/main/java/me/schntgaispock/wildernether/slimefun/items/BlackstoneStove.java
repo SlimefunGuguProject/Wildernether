@@ -66,7 +66,7 @@ public class BlackstoneStove extends MenuBlock {
     }
 
     public static ItemStack getCraftConfirmItem(@Nonnull Mode mode) {
-        return new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&a" + COOK_CONFIRM_NAME, "&7模式: &f" + BlackstoneStoveUtils.getMode(mode));
+        return new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&a" + COOK_CONFIRM_NAME, "&7模式: &f" + BlackstoneStoveUtils.getModeName(mode));
     }
 
     public static Mode getMode(Location l) {
