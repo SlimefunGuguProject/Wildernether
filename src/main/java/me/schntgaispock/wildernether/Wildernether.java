@@ -6,12 +6,11 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import javax.annotation.Nonnull;
 
-import net.guizhanss.guizhanlib.updater.GuizhanBuildsUpdater;
+import net.guizhanss.minecraft.guizhanlib.updater.GuizhanUpdater;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.NamespacedKey;
 
 import io.github.mooy1.infinitylib.core.AbstractAddon;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.BlobBuildUpdater;
 import me.schntgaispock.wildernether.integration.GastronomiconSetup;
 import me.schntgaispock.wildernether.integration.SlimeHUDSetup;
 import me.schntgaispock.wildernether.listeners.Listeners;
@@ -53,7 +52,7 @@ public class Wildernether extends AbstractAddon {
         Listeners.setup();
 
         if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("Build")) {
-            new GuizhanBuildsUpdater(this, getFile(), "SlimefunGuguProject", "Wildernether", "master", false, "zh-CN").start();
+            GuizhanUpdater.start(this, getFile(), "SlimefunGuguProject", "Wildernether", "master");
         }
 
         // Might do more with this later idk
